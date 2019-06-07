@@ -1,4 +1,3 @@
-import com.mongodb.MongoClient;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -21,8 +20,5 @@ public class Main {
             System.out.println("No worky");
             // Invalid Date
         }
-        MongoClient mg = new MongoClient();
-
-
     }
 }
